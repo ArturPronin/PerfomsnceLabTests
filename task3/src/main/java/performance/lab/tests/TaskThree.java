@@ -8,7 +8,7 @@ public class TaskThree {
 
     public static void main(String[] args) throws IOException {
         if (args.length < 2) {
-            System.out.println("Используйте команду: java Main tests.json values.json");
+            System.out.println("Используйте команду: java TaskThree tests.json values.json");
             return;
         }
 
